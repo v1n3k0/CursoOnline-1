@@ -1,14 +1,13 @@
-﻿using System;
-using CursoOnline.Dados.Contextos;
+﻿using CursoOnline.Dados.Contextos;
 using CursoOnline.Dados.Repositorios;
+using CursoOnline.Dominio._Base;
 using CursoOnline.Dominio.Alunos;
 using CursoOnline.Dominio.Cursos;
+using CursoOnline.Dominio.Matriculas;
 using CursoOnline.Dominio.PublicosAlvo;
-using CursoOnline.Dominio._Base;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using CursoOnline.Dominio.Matriculas;
 
 namespace CursoOnline.Ioc
 {
